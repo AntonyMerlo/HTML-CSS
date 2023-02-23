@@ -43,7 +43,8 @@ section p{
     height: 100vh;
     background-image: url(./assets/parallax-imagem1.png);
     background-attachment: fixed;
-    background-size: cotain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #banner h1{
     position: relative;
