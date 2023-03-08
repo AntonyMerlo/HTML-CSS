@@ -1,0 +1,28 @@
+.pousada2 {
+    background-image: url(/assets/img-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    max-width: 1920px;
+}
+.lista{
+    margin: 0 auto;
+    width: 95%;
+    padding: 20px;
+    max-width: 1200px;
+}
+.lista ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.lista li{
+    width: 25%;
+    text-align: left;
+    margin-top: 10px;
+}
+.Quartoh3{
+  padding: 25px;
+  text-align: center;
+}
