@@ -1,0 +1,36 @@
+.f-white{
+    color: #fff;
+}
+.t-preco{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.back-t-preco{
+    background-color: #eaeaea;
+    border: 1px solid #fff;
+}
+.b-t{
+    border: none;
+}
+.t-line2 tr td{
+    padding: 17px;
+    border: 1px solid #a89f9f;  
+}
+.t-line2 tr th{
+    padding: 17px;
+    border: 1px solid #fff; 
+    text-align: left; 
+    background-color: #eaeaea;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+.CirculoAzul{
+    background-color: #2f86d6;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}

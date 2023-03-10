@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+.topo-pagina, .logo, nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.topo-pagina{
+    padding-top: 20px;
+}
+.logo img, .logo2 img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav li a{
+    color: black;
+    margin: 0 15px;
+}
+.text-logo p, span{
+    color: #2f86d6;
+}
+.banner1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 150px;
+}
+.text-white{
+    color: #fff;
+}
+.back-blue{
+    background-color: #2f86d6;
+}
+.back-grey{
+    background-color: #233032;
+}
+.back-wgrey{
+    background-color: #f1f3f7;
+}
+.banner1 div{
+    width: 500px;
+}
+.text-banner1 p{
+    padding: 35px 0;
+    text-align: justify;
+}
+.banner2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.botao-preco img{
+    padding-right: 20px;
+    vertical-align: middle;
+}
+.botao-preco{
+    padding: 25px;
+    border-radius: 5px;
+}
+.vantagens{
+    padding: 0 200px;
+}
+.vant-text{
+    padding: 20px;
+}
+.vant-text h1{
+    text-align: center;
+}
+.servicos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-padding: 100px;
+}
+.servicos div{
+    width: calc(100% / 3);
+    padding: 40px;
+}
+.servicos div img{
+    width: 150px;
+}
+.table-home{
+    width: 100%;
+    text-align: center;
+}
+.l-img-txt td img{
+    width: 100px;
+}
+.text-center{
+    text-align: center;
+}
+.d-table{
+    padding: 0 200px 200px 200px;
+}
+.d-table h1{
+    padding: 72px;
+}
+.table-home{
+    border-collapse: collapse;
+    border: 1px solid #a89f9f;
+    box-shadow: 0 0 50px 10px rgba(47, 134, 214, 1)
+}
+thead tr th, thead tr td {
+    border-right: 1px solid #a89f9f;
+}
+.t-line tr td{
+    padding: 17px;
+    border: 1px solid #a89f9f;  
+}
+.t-line tr:nth-of-type(odd) td{
+    background-color: #eaeaea;
+}
+.t-line tr:nth-of-type(even) td{
+    background-color: #ffffff;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.contatos{
+    padding: 20px;
+}
+.contatos p{
+    padding: 8px;
+    font-weight: bold;
+}
+.desenvolvido{
+    font-weight: bold;
+    padding: 20px;
+}
