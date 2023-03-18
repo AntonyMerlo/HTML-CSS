@@ -1,0 +1,30 @@
+.container{
+    font-family: Verdana;
+}
+h1, h2{
+    text-align: center;
+}
+h1{
+    font-size: 22px;
+}
+h2{
+    color:#88100f;
+    font-size: 16px;
+    font-weight: bold;
+}
+h3{
+    color:#88100f;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p, ol{
+    font-size: 14px;
+    line-height: 25px;
+}
+li{
+    padding: 5px;
+}
+img{
+    width: 2000px;
+}
