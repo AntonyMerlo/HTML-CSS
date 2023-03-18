@@ -1,0 +1,71 @@
+.nav-espec {
+  margin: 20px;
+}
+.nav-espec a {
+  margin: 10px;
+  font-weight: bold;
+  border-bottom: 2px solid #00cad1;
+}
+.tab-fig {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.tab-fig figure img {
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+th {
+  background-color: #00c9d1;
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .tab-fig figure {
+    display: none;
+  }
+  .tab-fig {
+    width: 100%;
+  }
+  .topo-nav {
+    border-top: 1px solid #009fa5;
+    margin: 0 10px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .tab-fig figure {
+    display: none;
+  }
+  .tab-fig {
+    width: 95%;
+  }
+}
