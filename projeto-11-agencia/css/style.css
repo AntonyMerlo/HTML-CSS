@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+
+/* Definir a largura dos elementos */
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+/* background color */
+main{
+    background-color: #eaeaea;
+}
+
+/* Topo da pagina */
+.header{
+    background-color: #fff;
+}
+.topo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+}
+.topo h1{
+    color: #5d15d1;
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+.topo figure img{
+    width: 32px;
+    height: 32px;
+}
+
+/* Baner */
+.banner{
+    width: 100%;
+    padding: 50px 0;
+    background-image: url("../assets/bahia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* container Formulario*/
+.cont-form{
+    margin: 50px auto;
+}
+.cont-form{
+    background-color: #fff;
+}
+.cont-form > div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 35px;
+    color: #fff;
+    background-color: #5d15d1;
+}
+.cont-form > div:first-child img{
+    width: 20px;
+    height: 20px;
+    rotate: -45deg;
+}
+.cont-form > div:first-child h2{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.cont-form{
+    width: 100%;
+}
+.cont-form-informacoes{
+    margin: 30px 25px 20px 25px;
+}
+.cont-form-informacoes > h1{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+form{
+    display: flex;
+    flex-flow: column wrap;
+}
+label{
+    font-size: 16px;
+}
+form > input, .el-lado input,  select{
+    height: 32px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.el-lado{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.el-lado > div{
+    width: calc(50% - 10px);
+}
+.container-selecao{
+    width: 100%;
+}
+.caixa-selecao{
+    display: flex;
+    flex-direction: row;
+}
+.poiter-cursor{
+    width: 120px;
+}
+.poiter-cursor input{
+    width: 15px;
+    margin-left: 8px;
+}
+.poiter-cursor input, .poiter-cursor label{
+    cursor: pointer;
+    margin: 10px 0;
+}
+button{
+    width: 160px;
+    height: 32px;
+    margin: 20px 0;
+    background-color: #5d15d1;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #6e18f7;
+}
+/* container Ofertas */
+.cont-ofertas{
+    margin: 32px 0;
+}
+.ofertas-text h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ofertas-text p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.ofertas-text span{
+    font-weight: bold;
+}
+.ofertas-fig{
+    width: 100%;
+    height: 375px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.ofertas-fig img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ofertas-fig > figure, .ofertas-fig > div, .explore figure{
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.ofertas-fig > div{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    
+}
+.ofertas-fig > div figure{
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin-right: 10px;
+}
+.ofertas-fig > div figure img{
+    width: 100%;
+    height: 100%;
+}
+.ofertas-fig figure{
+    position: relative;
+}
+.ofertas-fig figcaption{
+    position: absolute;
+    bottom: 0;
+
+    font-size: 17px;
+    color: #fff;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 5px 10px;
+}
+
+
+/* container Explore a natureza */
+.explore{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.explore img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.explore figcaption{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+.explore figcaption h3{
+    font-size: 16px;
+}
+.explore figcaption p{
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/* container footer */
+footer{
+    background-color: #5d15d1;
+    color: #fff;
+    
+}
+footer > div > div{
+    padding: 15px;
+}
+footer h1{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.footer-icons figure img{
+    width: 18px;
+    margin: 0 8px;
+}
